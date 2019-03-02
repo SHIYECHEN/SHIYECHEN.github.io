@@ -27,7 +27,7 @@ function removeClass(els, kliss) {
 }
 function creatP(el) {
     var p1 = document.createElement("p");
-    p1.innerHTML = "<div class='contai2 '><div class='about'><img src='http://ww1.sinaimg.cn/large/005OFz2fgy1g0oamklhadj30zk0jodj4.jpg'><p><a href='http://weibo.com/chens0529'>Weibo</a> <a href='https://www.instagram.com/ShikChann'>Instagram</a></p><p>WeChat: ShikChan</p><p>Mail：chikchann(at)gmail.com</p></div></div>";el.appendChild(p1);
+    p1.innerHTML = "<div class='contai2 '><div class='about'><img src='http://ww1.sinaimg.cn/large/005OFz2fgy1g0oamklhadj30zk0jodj4.jpg'><p><a href='http://weibo.com/chens0529'>Weibo</a> <a href='https://www.instagram.com/ShikChann'>Instagram</a></p><p>WeChat: Acaovohdt</p><p>Mail：chikchann(at)gmail.com</p></div></div>";el.appendChild(p1);
 }
 function render(el) {
     var images = {
