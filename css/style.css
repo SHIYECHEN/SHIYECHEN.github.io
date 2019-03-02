@@ -1,0 +1,116 @@
+    body{
+    /*background-color: #f7f9f6;*/
+    }
+    .a {
+        background-color: #f7f9f6;
+        padding: 0;
+    }
+    
+    strong {
+        color:black;
+        display: block;
+        letter-spacing: 2px;
+        text-indent: 12%;
+        font-size: 13px;
+        line-height: 2em;
+        padding-bottom: 9px;
+        padding-top: 4px;
+    }
+    
+    .navall {
+
+        /*background-color: white;*/
+        padding-top: 270px;
+        text-indent: 5%;
+        letter-spacing: 1.5px;
+        position: fixed;
+        width: 16.68%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        line-height: 0.5em;
+        top: 0px;
+        left: 0px;
+
+    }
+    
+    .navall a {
+        color: #aea8a8;
+        font-size: 12px
+    }
+    
+    .contai img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+    }
+    .logo a{
+
+        color: #ededed;
+        width: 200px;
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        font-size: 13px;
+    }
+    .logo a:hover{
+        color: #0066ff;
+    }
+    .contai{
+        height: 100%;
+    }
+    .headbar{
+        background-color: white;
+        margin-bottom: 0px;
+    }
+    .headlogo{
+        font-size: 16px;
+        text-decoration:none;
+        margin-left: 30px;
+        color: #ededed;
+        height: 50px;
+        line-height:50px;
+    }
+    .float{
+        position: fixed;
+        right: 0;
+        z-index: 999;
+    }
+    .headnav{
+        border: solid black 1px;
+        background-color: #f7f9f6;
+        width: 100%;
+        position: fixed;
+        /*right: 0;*/
+        z-index: 998;
+        top: 0px;
+    }
+.about a:hover{
+    color: blue;
+}
+.about a {
+    color: black;
+}
+.about img{
+    margin-bottom: 10px;
+    border:solid 14px white;
+    width: 55%;
+
+}
+.contai2{
+    height: 100%;
+}
+.about{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+    /**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-02-09 17:18:46
+ * @version $Id$
+ */
