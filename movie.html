@@ -73,7 +73,7 @@
                 <div class="movie-bg" style="background-image: url('${
                   movie.poster
                 }')"></div>
-                <div class="rateYo" data-value="${movie.rate}"></div>
+                <div class="rateYo dv-star-rating" data-value="${movie.rate}"></div>
               </li>`
             })
             .join('')
@@ -82,7 +82,6 @@
 
           $('.rateYo').each(function() {
             const rating = $(this).attr('data-value')
-            console.log(rating)
             if (rating !== 'undefined') {
               $(this).rateYo({
                 rating: Number(rating),
