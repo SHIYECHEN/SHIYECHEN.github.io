@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 function changeLi() {
     var getLi = document.getElementsByTagName("li");
     var getUl = document.getElementById("navbar-collapse");
