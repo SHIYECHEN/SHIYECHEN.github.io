@@ -68,15 +68,9 @@
               return `
               <li class="movie-item">
                 <a href=${movie.url}>
-                  <img src=${movie.poster.replace(
-                    '.jpg',
-                    '.webp'
-                  )} referrerpolicy ="never"></img>
+                  <img src=${movie.poster} referrerpolicy ="never"></img>
                 </a>
-                <div class="movie-bg" style="background-image: url('${movie.poster.replace(
-                  '.jpg',
-                  '.webp'
-                )}')"></div>
+                <div class="movie-bg" style="background-image: url('${movie.poster}')"></div>
                 <div class="rateYo dv-star-rating" data-value="${
                   movie.rate
                 }"></div>
