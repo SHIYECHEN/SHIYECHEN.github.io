@@ -62,8 +62,8 @@
         .then(response => {
           return response.json()
         })
-        .then(movies => {
-          const tpl = movies
+        .then(data => {
+          const tpl = data.movies
             .map(movie => {
               return `
               <li class="movie-item">
